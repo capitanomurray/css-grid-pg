@@ -78,3 +78,15 @@ header {
     margin-bottom: .75em; }
   .main img {
     width: 100%; }
+
+/* Footer Section */
+footer {
+  grid-area: footer;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #9f9c9c; }
+  footer p {
+    color: #333;
+    font-size: 12px;
+    padding: 10px; }

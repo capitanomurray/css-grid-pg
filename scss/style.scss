@@ -118,3 +118,19 @@ header {
       width: 100%;
     }
 }
+
+/* Footer Section */
+
+footer {
+  grid-area: footer;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  background-color: $grey-color;
+
+    p {
+      color: $primary-color;
+      font-size: 12px;
+      padding: 10px;
+    }
+}

@@ -134,3 +134,16 @@ footer {
       padding: 10px;
     }
 }
+
+/* Getting it all into a single column */
+
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "sidebar"
+      "main"
+      "footer";
+    }
+}
